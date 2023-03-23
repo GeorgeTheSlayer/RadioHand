@@ -1,0 +1,18 @@
+{
+    "name": "RadioHand",
+    "license": "MIT",
+    "description": "RadioHand Allows for easy gesuture recognition in the browser.",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "devDependencies": {
+        "@changesets/cli": "^2.26.1",
+        "tsup": "^6.7.0",
+        "typescript": "^5.0.2"
+    },
+    "scripts": {
+        "build": "tsup index.ts --format esm,cjs --dts",
+        "lint": "tsc"
+    }
+}
