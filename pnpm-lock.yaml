@@ -2,11 +2,15 @@ lockfileVersion: 5.4
 
 specifiers:
   '@changesets/cli': ^2.26.1
+  convnetjs: ^0.3.0
+  dsp.js: ^1.0.1
   tsup: ^6.7.0
   typescript: ^5.0.2
 
 devDependencies:
   '@changesets/cli': 2.26.1
+  convnetjs: 0.3.0
+  dsp.js: 1.0.1
   tsup: 6.7.0_typescript@5.0.2
   typescript: 5.0.2
 
@@ -724,6 +728,10 @@ packages:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
+  /convnetjs/0.3.0:
+    resolution: {integrity: sha512-qG6VEbJS8FOQFR6xS0NMfUseR3P6GJ/JfAq2Ff8MrpeF5Y2HVmZI6zcakOYz50f34qq2SMumlUhB7gfmypo8lg==}
+    dev: true
+
   /cross-spawn/5.1.0:
     resolution: {integrity: sha512-pTgQJ5KC0d2hcY8eyL1IzlBPYjTkyH72XRZPnLyKus2mBfNjQs3klqbJU2VILqZryAZUt9JOb3h/mWMy23/f5A==}
     dependencies:
@@ -812,6 +820,10 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       path-type: 4.0.0
+    dev: true
+
+  /dsp.js/1.0.1:
+    resolution: {integrity: sha512-5ols1j2i2tdbtd38DMR6xGSmE8dE/qFWgqrNN1ZNnIZnOEAFjzoVq5hM57nbQS9u0VmxqCUw8YccgsS9+zhtNg==}
     dev: true
 
   /emoji-regex/8.0.0:
